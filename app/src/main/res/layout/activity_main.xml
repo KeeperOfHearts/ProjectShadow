@@ -15,4 +15,19 @@
         tools:layout="@android:layout/simple_gallery_item"
     />
 
+    <SearchView
+        android:id="@+id/mapSearch"
+        android:layout_width="205dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="668dp"
+        android:background="@drawable/bg_search_view"
+        android:elevation="5dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search ... "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
